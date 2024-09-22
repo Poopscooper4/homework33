@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    border-style: solid;
+    border-color: rgb(157, 157, 157);
+    border-radius: 10em;
+    border-width: 20px;
+    color: white;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 650px;
+
+}
+.regform{
+    padding: 50px;
+}
+
+.create{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create h2{
+    font-size: 30px;
+}
+.allin{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+.allin input{
+    width: 200px;
+    height: 30px;
+}
+.eage{
+    gap: 67px;
+}
+.enumb{
+    gap: 110px;
+}
+.epass{
+    gap: 100px;
+}
+.gender{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gname{
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+}
+.rdiv{
+    margin-top: 10px;
+    display: flex;
+    gap: 80px;
+}
+.butdiv{
+    gap: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+}
